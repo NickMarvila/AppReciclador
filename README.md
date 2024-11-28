@@ -1,83 +1,79 @@
-<<<<<<< HEAD
-# AppReciclador
-=======
-This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
+# App Reciclador 🌱
 
-# Getting Started
+Este é um aplicativo de reciclagem desenvolvido em React Native. Ele permite que usuários indiquem a disponibilidade de recicláveis para coleta, como plástico, papelão, alumínio e metal. Administradores podem gerenciar essas coletas e confirmar a retirada dos materiais.
 
->**Note**: Make sure you have completed the [React Native - Environment Setup](https://reactnative.dev/docs/environment-setup) instructions till "Creating a new application" step, before proceeding.
+---
 
-## Step 1: Start the Metro Server
+## 🚀 Funcionalidades
 
-First, you will need to start **Metro**, the JavaScript _bundler_ that ships _with_ React Native.
+### Funcionalidades do Usuário:
+1. **Cadastro de Coletas:**
+   - Usuários podem adicionar coletas indicando:
+     - Tipo de material reciclável (plástico, papelão, alumínio ou metal).
+     - Quantidade em quilogramas (kg).
+     - Localização.
+   - Após adicionar, um **pin** é exibido no mapa com os detalhes da coleta.
 
-To start Metro, run the following command from the _root_ of your React Native project:
+2. **Visualização do Mapa:**
+   - Exibe as coletas disponíveis no mapa.
 
-```bash
-# using npm
-npm start
+3. **Logout:**
+   - Usuários podem encerrar sua sessão com um botão de logout.
 
-# OR using Yarn
-yarn start
-```
+---
 
-## Step 2: Start your Application
+### Funcionalidades do Administrador:
+1. **Gestão de Coletas:**
+   - Exibição de todas as coletas criadas pelos usuários.
+   - Opção para **confirmar coletas**, removendo o **pin** do mapa.
 
-Let Metro Bundler run in its _own_ terminal. Open a _new_ terminal from the _root_ of your React Native project. Run the following command to start your _Android_ or _iOS_ app:
+2. **Autenticação:**
+   - Login exclusivo para administradores e usuários.
 
-### For Android
+---
 
-```bash
-# using npm
-npm run android
+## 🛠️ Passo a Passo para Rodar o Projeto
 
-# OR using Yarn
-yarn android
-```
+### 1️⃣ Pré-requisitos
+Antes de começar, certifique-se de ter os seguintes softwares instalados:
+- **Node.js** (https://nodejs.org/)
+- **Git** (https://git-scm.com/)
+- **Visual Studio Code** (https://code.visualstudio.com/)
+- **Emulador Android** (ou dispositivo físico com modo de desenvolvedor habilitado).
 
-### For iOS
+---
 
-```bash
-# using npm
-npm run ios
+### 2️⃣ Clone o Repositório
+No terminal, execute:
 
-# OR using Yarn
-yarn ios
-```
+git clone https://github.com/NickMarvila/AppReciclador.git
+cd AppReciclador
 
-If everything is set up _correctly_, you should see your new app running in your _Android Emulator_ or _iOS Simulator_ shortly provided you have set up your emulator/simulator correctly.
+### 3️⃣ Instale as Dependências
 
-This is one way to run your app — you can also run it directly from within Android Studio and Xcode respectively.
+Para instalar as dependências do projeto, siga os seguintes passos:
 
-## Step 3: Modifying your App
+1. No terminal, dentro do diretório do projeto, execute o comando abaixo para instalar todas as dependências necessárias:
 
-Now that you have successfully run the app, let's modify it.
+   npm install
 
-1. Open `App.tsx` in your text editor of choice and edit some lines.
-2. For **Android**: Press the <kbd>R</kbd> key twice or select **"Reload"** from the **Developer Menu** (<kbd>Ctrl</kbd> + <kbd>M</kbd> (on Window and Linux) or <kbd>Cmd ⌘</kbd> + <kbd>M</kbd> (on macOS)) to see your changes!
+## 4️⃣ Configure o Ambiente de Desenvolvimento
 
-   For **iOS**: Hit <kbd>Cmd ⌘</kbd> + <kbd>R</kbd> in your iOS Simulator to reload the app and see your changes!
+Certifique-se de que o ambiente de desenvolvimento está corretamente configurado para rodar o projeto no seu dispositivo ou emulador.
 
-## Congratulations! :tada:
+### **Android:**
 
-You've successfully run and modified your React Native App. :partying_face:
+1. Verifique se o **Android Studio** está instalado e configurado, incluindo o emulador ou dispositivo físico com o modo de desenvolvedor habilitado.
 
-### Now what?
+2. Para rodar o projeto no emulador Android, execute o seguinte comando:
 
-- If you want to add this new React Native code to an existing application, check out the [Integration guide](https://reactnative.dev/docs/integration-with-existing-apps).
-- If you're curious to learn more about React Native, check out the [Introduction to React Native](https://reactnative.dev/docs/getting-started).
+   npm run android
 
-# Troubleshooting
+## 5️⃣ Execute o Projeto
 
-If you can't get this to work, see the [Troubleshooting](https://reactnative.dev/docs/troubleshooting) page.
+### 1. **Abra o Visual Studio Code no diretório do seu projeto**:
 
-# Learn More
+   Abra o terminal no VS Code e execute o seguinte comando para abrir o projeto no editor:
 
-To learn more about React Native, take a look at the following resources:
+   code .
 
-- [React Native Website](https://reactnative.dev) - learn more about React Native.
-- [Getting Started](https://reactnative.dev/docs/environment-setup) - an **overview** of React Native and how setup your environment.
-- [Learn the Basics](https://reactnative.dev/docs/getting-started) - a **guided tour** of the React Native **basics**.
-- [Blog](https://reactnative.dev/blog) - read the latest official React Native **Blog** posts.
-- [`@facebook/react-native`](https://github.com/facebook/react-native) - the Open Source; GitHub **repository** for React Native.
->>>>>>> ef6c2a6 (projeto App reciclador)
