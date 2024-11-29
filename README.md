@@ -1,47 +1,32 @@
-# App Reciclador 🌱
+# **ReciclApp**  
+**Transformando resíduos em recursos de forma inteligente!**  
 
-Este é um aplicativo de reciclagem desenvolvido em React Native. Ele permite que usuários indiquem a disponibilidade de recicláveis para coleta, como plástico, papelão, alumínio e metal. Administradores podem gerenciar essas coletas e confirmar a retirada dos materiais.
-
----
-
-## 🚀 Funcionalidades
-
-### Funcionalidades do Usuário:
-1. **Cadastro de Coletas:**
-   - Usuários podem adicionar coletas indicando:
-     - Tipo de material reciclável (plástico, papelão, alumínio ou metal).
-     - Quantidade em quilogramas (kg).
-     - Localização.
-   - Após adicionar, um **pin** é exibido no mapa com os detalhes da coleta.
-
-2. **Visualização do Mapa:**
-   - Exibe as coletas disponíveis no mapa.
-
-3. **Logout:**
-   - Usuários podem encerrar sua sessão com um botão de logout.
+O **ReciclApp** é um aplicativo desenvolvido em React Native para conectar pessoas que possuem materiais recicláveis com administradores responsáveis pela coleta. Ele permite que usuários registrem seus recicláveis no mapa e que administradores organizem e confirmem a coleta desses materiais.  
 
 ---
 
-### Funcionalidades do Administrador:
-1. **Gestão de Coletas:**
-   - Exibição de todas as coletas criadas pelos usuários.
-   - Opção para **confirmar coletas**, removendo o **pin** do mapa.
+## **Funcionalidades Principais**  
 
-2. **Autenticação:**
-   - Login exclusivo para administradores e usuários.
+- **Usuários**:  
+  - Cadastro de pontos com materiais recicláveis no mapa.  
+  - Seleção do tipo de reciclável (plástico, papelão, alumínio, metal).  
+  - Acompanhamento dos pontos registrados.  
 
----
-
-## 🛠️ Passo a Passo para Rodar o Projeto
-
-### 1️⃣ Pré-requisitos
-Antes de começar, certifique-se de ter os seguintes softwares instalados:
-- **Node.js** (https://nodejs.org/)
-- **Git** (https://git-scm.com/)
-- **Visual Studio Code** (https://code.visualstudio.com/)
-- **Emulador Android** (ou dispositivo físico com modo de desenvolvedor habilitado).
+- **Administradores**:  
+  - Visualização de todos os pontos cadastrados pelos usuários.  
+  - Confirmação e remoção de registros após a coleta.  
 
 ---
+
+## **Como Rodar o Projeto**  
+
+### **Pré-requisitos**  
+Certifique-se de ter as seguintes ferramentas instaladas:  
+- **Node.js**: [Download](https://nodejs.org)  
+- **Git**: [Download](https://git-scm.com)  
+- **Expo CLI**: Instale usando o comando:  
+  ```bash
+  npm install -g expo-cli
 
 ### 2️⃣ Clone o Repositório
 No terminal, execute:
